@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashif Raza Profile | Bioinformatics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .dna-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <header class="dna-gradient text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-6 inline-block p-1 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-full w-32 h-32 object-cover border-4 border-slate-900">
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">Ashif Raza, PhD</h1>
+            <p class="text-xl text-cyan-300 font-light mb-6">Bioinformatics Scientist & Computational Biologist</p>
+            <div class="flex justify-center gap-4 text-2xl">
+                <a href="#" class="hover:text-cyan-400 transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-cyan-400 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-cyan-400 transition"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="hover:text-cyan-400 transition"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold border-b-2 border-cyan-500 inline-block mb-6">About Me</h2>
+            <p class="text-lg leading-relaxed text-slate-700">
+                I specialize in bridging the gap between complex biological data and actionable insights. My work focuses on <strong>genomic sequencing</strong>, <strong>phylogenetics</strong>, and developing scalable <strong>Nextflow pipelines</strong>. Currently, I am exploring the intersection of machine learning and structural biology.
+            </p>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-6">Technical Stack</h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-white border border-slate-200 px-4 py-2 rounded-lg shadow-sm font-medium flex items-center gap-2">
+                    <i class="fab fa-python text-blue-600"></i> Python (Pandas, Scikit-learn)
+                </span>
+                <span class="bg-white border border-slate-200 px-4 py-2 rounded-lg shadow-sm font-medium flex items-center gap-2">
+                    <i class="fas fa-chart-line text-blue-400"></i> R / Bioconductor
+                </span>
+                <span class="bg-white border border-slate-200 px-4 py-2 rounded-lg shadow-sm font-medium flex items-center gap-2">
+                    <i class="fas fa-dna text-green-500"></i> Nextflow / Snakemake
+                </span>
+                <span class="bg-white border border-slate-200 px-4 py-2 rounded-lg shadow-sm font-medium flex items-center gap-2">
+                    <i class="fab fa-docker text-blue-500"></i> Docker & Singularity
+                </span>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-6">Selected Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                    <h3 class="font-bold text-xl mb-2 text-blue-700">GenFlow-Pipeline</h3>
+                    <p class="text-slate-600 mb-4 text-sm">Automated variant calling pipeline for large-scale WGS data using Nextflow and GATK.</p>
+                    <a href="#" class="text-cyan-600 font-semibold text-sm hover:underline">View Source →</a>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100 hover:shadow-lg transition">
+                    <h3 class="font-bold text-xl mb-2 text-blue-700">Protein-Viz-Tool</h3>
+                    <p class="text-slate-600 mb-4 text-sm">A Streamlit dashboard for 3D visualization of protein-ligand docking results.</p>
+                    <a href="#" class="text-cyan-600 font-semibold text-sm hover:underline">View Source →</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-bold mb-6">Publications</h2>
+            <div class="space-y-4">
+                <div class="pl-4 border-l-4 border-slate-200 italic text-slate-700">
+                    "Comparative Genomics of Extremophilic Bacteria," <strong>Journal of Bioinformatics</strong>, 2024.
+                </div>
+                <div class="pl-4 border-l-4 border-slate-200 italic text-slate-700">
+                    "Novel Algorithms for RNA-Seq Quantification," <strong>Nature Methods (Special Issue)</strong>, 2023.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-10 text-slate-400 text-sm border-t border-slate-200">
+        &copy; 2025 Ashif Raza. Built with Tailwind CSS & GitHub Pages.
+    </footer>
+
+</body>
+</html>
